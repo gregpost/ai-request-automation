@@ -1,0 +1,20 @@
+❌ Опыт написания unit-тестов для C++ алгоритмов
+❌ разработка высокопроизводительных алгоритмов
+❌ оптимизация кода под ограниченные ресурсы
+❌ Знание интерфейсов UART, SPI, I2C
+❌ опыт работы с C++ в ресурсоограниченных системах
+
+You made the mistake when you write:
+```
+7+ лет коммерческой разработки на C++ (АртВижн, Inobitec)
+```
+I have the experience:
+- 3 years: C++
+- 3 years: Python/Machine Learning
+- 1 year: C#/JavaScript
+
+
+I don't have this experience:
+```
+опыт разработки высоконагруженных приложений на C++
+```

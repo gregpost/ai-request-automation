@@ -1,0 +1,33 @@
+Rules of the first word creating:
+- do not specify the field of the business (robotics, medicine etc.). Specify the field of the development (memory optimization, AI, design patterns etc.). 
+- create first using 1-2 first points of "Обязанности" block
+- describe something interesting in the field of the vacancy according to development (difficult tasks, high apportunities for grows etc.)
+- start from the text "Здравствуйте! Меня заинтересовала эта вакансия, так как"
+
+# Examples of bad first words
+
+1) In this first word you write that that I want to creat movement algorithms, but this is not metter which kind of task I will solve (movement, flying, blochain). The main yuo need describe - difficult and interesting development tasks and apportunity to help people.
+```
+Здравствуйте! Меня заинтересовала эта вакансия, так как она предполагает участие в разработке и тестировании алгоритмов движения — это сложные и перспективные задачи, в которых можно применить как знания C++/Python, так и опыт командной работы и оптимизации алгоритмов.
+```
+
+2) This is too primitive and do not specify the real reason of my interest.
+- This is too long phrase without real meening: " участие в разработке и тестировании алгоритмов управления". Be shorted and do not use the water phrases.
+- "что представляет собой сложные и интересные задачи." - this is to "suho". Specify the reason of my desire (some interesting task, f.e. apportunity to be on the edge of the technologies)
+```
+Здравствуйте! Меня заинтересовала эта вакансия, так как она предлагает участие в разработке и тестировании алгоритмов управления движением в средах виртуального моделирования, что представляет собой сложные и интересные задачи.
+```
+
+3) Too much water - you just repeat the vacancy without any new information.
+- this is the water: "так как она предполагает разработку и тестирование алгоритмов движения для робототехнических комплексов в виртуальных симуляторах"
+- Also you specified some specific technologies (Gazebo и V‑REP) and this is strange that the condidate want to work in this company only becasue they use some speific technologies
+```
+Здравствуйте! Меня заинтересовала эта вакансия, так как она предполагает разработку и тестирование алгоритмов движения для робототехнических комплексов в виртуальных симуляторах Gazebo и V‑REP — задачи, требующие глубокого владения C++ и Python, а также опыта работы под Linux.
+```
+
+# Example of good first words with seconary mistakes
+
+1) The text is good because it describes the technical interest reasons (the phrase "требует высокой точности в работе с C++"), but the phrase "требует высокой точности в работе с C++" is looks too smart. The good version is "dayot vozmozhnost' reshat' slozhnie zadachi, c kotorih est' vozmozhnost' zadeistvovat' vozmozhnosti C++ i drugih technologii na prodvinutom urovne",
+```
+Здравствуйте! Меня заинтересовала эта вакансия, так как она предполагает участие в разработке и совершенствовании алгоритмов движения, что требует высокой точности в работе с C++ и глубокого понимания архитектуры ПО — это именно тот тип задач, в которых я силён и которые мотивируют меня профессионально.
+```

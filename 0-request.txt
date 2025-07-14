@@ -1,0 +1,19 @@
+Write a cover letter in Russian.
+My resume is in the file 1-resume.txt.
+The list of skills I do not have is in the file 2-not-know.txt.
+Use the rules for generating the first word from the file 3-first-word.txt.
+An example of a cover letter is in the file 4-cover-letter.txt.
+The vacancy description is in the file 5-vacancy.txt.
+Do not lie. Do not write fluff.
+Be concise.
+Write only what you actually see in my resume and the cover letter example.
+According to my advantages and disadvantages and market middle salary for the city from vacancy create the minimal and maximal salary desires. My salary on previous place of work was 150000 rub at month. If I will need to relocate from Belgorord I need to add to this sum the month price of the flat rent. (~20000 rub for Voronezh and 50000 for Moscow) and also the price of the traveling to my home town on the weekends (10000-20000 rub/month). So, the salary 250000 rub for Moscow - is normal for me, but the 270000 is comfortable. For Voronezh - 180000 is normal and 200000 is comfortable. But I able to work on the low salary (200000 for Moscow and 140000 for Voronezh) because my money is ends now. For remote work 160000 is normal and 180000 is comfortable.
+Add the footer:
+```
+С уважением,
+Григорий Постольский
+WhatsApp: +7 919 284-91-13
+Telegram:
+https://t.me/gregpost
+gpostolskiy@gmail.com
+```
