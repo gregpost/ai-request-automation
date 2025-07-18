@@ -11,9 +11,9 @@ According to my advantages and disadvantages and market middle salary for the ci
 Add the footer:
 ```
 С уважением,
-Григорий Постольский
-WhatsApp: +7 919 284-91-13
+Name Surname
+WhatsApp: +7 123 456-78-90
 Telegram:
-https://t.me/gregpost
-gpostolskiy@gmail.com
+https://t.me/mylogin
+mymail@gmail.com
 ```
