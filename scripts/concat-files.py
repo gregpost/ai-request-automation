@@ -18,12 +18,12 @@ def main():
     # === CONFIGURE YOUR INPUTS HERE ===
     # List exactly the files to combine:
     input_files = [
-        "0-request.txt",
-        "1-resume.txt",
-        "2-not-know.txt",
-        "3-first-word.txt",
-        "4-cover-letter.txt",
-        "5-vacancy.txt",
+        "../0-request.txt",
+        "../1-resume.txt",
+        "../2-not-know.txt",
+        "../3-first-word.txt",
+        "../4-cover-letter.txt",
+        "../5-vacancy.txt",
     ]
     # ==================================
 
@@ -32,8 +32,8 @@ def main():
     )
     parser.add_argument(
         '-o', '--output',
-        default='combined-request.txt',
-        help="Output filename (default: combined-request.txt)"
+        default='../combined-request.txt',
+        help="Output filename (default: ../combined-request.txt)"
     )
     parser.add_argument(
         '--start-sep',
