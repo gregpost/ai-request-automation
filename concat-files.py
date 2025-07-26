@@ -8,12 +8,8 @@ Usage:
   python concat-files.py path1 [path2 ...] [-o output.txt]
 
 Examples:
-  # FILES:
-  # "-o" key is optional to set output file name
-  python concat-files.py file1.txt file2.txt -o combined.txt
-
-  # DIRECTORY:
-  python concat-files.py day-plan
+  # Specify multiple files and/or directories (mixed is allowed)
+  python concat-files.py file1.txt dir1 file2.txt -o combined.txt
 
 Output format:
 ------------------------------------------------------------------------------
@@ -23,7 +19,7 @@ Output format:
 
 <<<FILE_START>>> file-2.txt
 (content)
-<<<FILE_END>>> file-2.xt
+<<<FILE_END>>> file-2.txt
 ------------------------------------------------------------------------------
 """
 
@@ -44,6 +40,7 @@ def combine_files(input_files, output_file):
             outfile.write(f"\n{END_SEP} {display_name}\n\n")
 
 def get_files_from_folder(folder_path):
+    """Return sorted list of file paths in a folder."""
     return [
         os.path.join(folder_path, f)
         for f in sorted(os.listdir(folder_path))
@@ -56,8 +53,8 @@ def main():
     )
     parser.add_argument(
         'paths',
-        nargs='*',
-        help="Files or single folder name"
+        nargs='+',
+        help="Files and/or directory paths"
     )
     parser.add_argument(
         '-o', '--output',
@@ -66,16 +63,19 @@ def main():
     )
     args = parser.parse_args()
 
-    if not args.paths:
-        print("Error: no input paths provided (files or directory)")
+    # Collect all files: expand directories, keep files
+    input_files = []
+    for p in args.paths:
+        if os.path.isdir(p):
+            input_files.extend(get_files_from_folder(p))
+        else:
+            input_files.append(p)
+
+    if not input_files:
+        print("Error: no input files found (check your paths)")
         sys.exit(1)
 
-    if len(args.paths) == 1 and '.' not in args.paths[0] and os.path.isdir(args.paths[0]):
-        input_files = get_files_from_folder(args.paths[0])
-    else:
-        input_files = args.paths
-
-    # check file existence
+    # Check file existence
     missing = [f for f in input_files if not os.path.isfile(f)]
     if missing:
         print("Error: the following input files are missing:")
