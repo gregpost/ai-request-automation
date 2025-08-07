@@ -1,8 +1,11 @@
 Falling asleep rules:
 1) Do not take notebooks home.
-2) Block all phones 2 hours before sleep.
-3) Go to bed 1 hour before sleep.
+2) Block all phones 4 hours before falling asleep.
+3) Go to bed 1 hour before falling asleep.
 4) Shift asleep time by 15 minutes forward after 3 cases of falling asleep on time.
-5) Wake up by alarm after 7.5 hours of sleep.
-6) Leave work no later than 5 hours before sleep.
-7) Be at home no later than 4 hours before sleep.
+5) Wake up by alarm after 7.5 hours of falling asleep.
+6) Leave work no later than 5 hours before falling asleep.
+7) Be at home no later than 4 hours before falling asleep.
+8) Turn off the overhead light 4 hours before falling asleep.
+9) Spend 3 hours reading before falling asleep.
+10) Take a shower and wash your hair before going to bed.
